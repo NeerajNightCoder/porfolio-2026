@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Neeraj</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background: #f4f4f4;
+        }
+
+        .container {
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #6366f1;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #1e293b;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #6366f1;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+
+        .contact-info a {
+            color: #6366f1;
+            text-decoration: none;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 5px;
+            color: #1e293b;
+            font-size: 1.3em;
+            text-transform: uppercase;
+        }
+
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #334155;
+        }
+
+        .job-title {
+            color: #6366f1;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .skill-item {
+            font-size: 0.95em;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: #475569;
+        }
+
+        .project-item {
+            margin-bottom: 10px;
+        }
+
+        .project-name {
+            font-weight: bold;
+            color: #334155;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border: none;
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>NEERAJ</h1>
+            <div class="subtitle">SOFTWARE DEVELOPER</div>
+            <div class="contact-info">
+                Bengaluru, India | +91 9110166394<br>
+                <a href="mailto:kumar.neeraj.developer@gmail.com">kumar.neeraj.developer@gmail.com</a> |
+                <a href="https://linkedin.com/in/kumar-neeraj-077b36177/">LinkedIn</a> |
+                <a href="https://github.com/NeerajNightCoder">GitHub</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Results-driven Full Stack Developer with 3.5+ years of experience in the MERN stack. Proven track record
+                of building scalable web applications, optimizing API performance by up to 40%, and implementing
+                efficient caching strategies that improved traffic handling by 80%. Proficient in React, Node.js, AWS,
+                and Docker.</p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><span class="skill-category">Languages:</span> JavaScript, Node.js, SQL, HTML,
+                    CSS</div>
+                <div class="skill-item"><span class="skill-category">Frontend:</span> React.js, React Native, Redux,
+                    Tailwind, Material UI</div>
+                <div class="skill-item"><span class="skill-category">Backend:</span> Express.js, MongoDB, Redis, MERN
+                </div>
+                <div class="skill-item"><span class="skill-category">Tools:</span> Docker, AWS, Git, Jest, Testing
+                    Library</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <span>Milo Doctor</span>
+                    <span>Jan 2023 – Present</span>
+                </div>
+                <div class="job-title">Software Developer</div>
+                <ul>
+                    <li>Architected and developed full-stack features from scratch, handling end-to-end deployment on
+                        AWS EC2.</li>
+                    <li>Implemented advanced caching mechanisms, increasing server traffic handling capacity by
+                        <strong>80%</strong>.
+                    </li>
+                    <li>Optimized asset delivery and data transfer, reducing network bandwidth consumption by
+                        <strong>60%</strong>.
+                    </li>
+                    <li>Utilized Docker for containerization, streamlining development environments and deployment
+                        pipelines.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span>Argusoft</span>
+                    <span>Dec 2021 – Dec 2022</span>
+                </div>
+                <div class="job-title">Software Developer</div>
+                <ul>
+                    <li>Refactored legacy API routes, achieving a <strong>40% reduction</strong> in response times.</li>
+                    <li>Introduced Redis caching and MongoDB indexing, resulting in <strong>50% faster</strong> data
+                        retrieval.</li>
+                    <li>Collaborated in a team environment following Scrum methodologies.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span>Dhatu Online Solutions</span>
+                    <span>Aug 2020 – Dec 2021</span>
+                </div>
+                <div class="job-title">Software Developer</div>
+                <ul>
+                    <li>Enhanced platform security by implementing JWT-based authentication and authorization.</li>
+                    <li>Integrated third-party APIs for real-time data updates, improving task speed by
+                        <strong>30%</strong>.
+                    </li>
+                    <li>Optimized database queries, slashing average page load times by <strong>50%</strong>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project-item">
+                <span class="project-name">Capes.app</span> | <a href="https://capes.app/" target="_blank">View Live</a>
+                <p style="margin-top: 5px; font-size: 0.95em;">A platform for creators and influencers to manage their
+                    clients and simplify their work. Built using React and Node.js.</p>
+            </div>
+            <div class="project-item">
+                <span class="project-name">StriderKart</span> | <a
+                    href="https://reactdevssindri.github.io/striderkart/#/" target="_blank">View Live</a>
+                <p style="margin-top: 5px; font-size: 0.95em;">Full-featured e-commerce platform developed using ReactJS
+                    workflows for a seamless shopping experience.</p>
+            </div>
+            <div class="project-item">
+                <span class="project-name">yumedic</span> | <a href="https://www.yumedic.com" target="_blank">View
+                    Live</a>
+                <p style="margin-top: 5px; font-size: 0.95em;">Medical service portal; converted complex PSD designs
+                    into a functional MERN application handling end-to-end development.</p>
+            </div>
+            <div class="project-item">
+                <span class="project-name">Startup Tech Implementation</span> | <a
+                    href="https://neerajistheboss.github.io/yumedUserTeam/" target="_blank">View Live</a>
+                <p style="margin-top: 5px; font-size: 0.95em;">Lead technical developer for a startup MVP, building both
+                    frontend and backend architectures from ground up.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="job">
+                <div class="job-header">
+                    <span>Vinoba Bhave University (VBU)</span>
+                    <span>2016 – 2020</span>
+                </div>
+                <div>B.Tech in Civil Engineering</div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

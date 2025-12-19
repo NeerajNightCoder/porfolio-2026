@@ -11,7 +11,9 @@ import {
   ChevronRight,
   Terminal,
   Cpu,
-  Globe
+  Globe,
+  Rocket,
+  Download
 } from 'lucide-react';
 import { portfolioData } from './data';
 
@@ -20,11 +22,15 @@ const App = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 300);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
@@ -58,7 +64,12 @@ const App = () => {
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
           </div>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <div className="nav-btns">
+            <a href="./CV.pdf" download="Neeraj_CV.pdf" className="btn btn-outline nav-cv-btn">
+              CV <Download size={18} />
+            </a>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          </div>
         </div>
       </nav>
 
@@ -243,6 +254,22 @@ const App = () => {
           <p>Built with React & Vite</p>
         </div>
       </footer>
+
+      {/* Scroll to Top Rocket */}
+      {scrolled && (
+        <motion.button
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 100, opacity: 0 }}
+          whileHover={{ y: -5, scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={scrollToTop}
+          className="rocket-btn"
+          aria-label="Scroll to top"
+        >
+          <Rocket size={24} className="rocket-icon" />
+        </motion.button>
+      )}
     </div>
   );
 };

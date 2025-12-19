@@ -1,71 +1,91 @@
 export const portfolioData = {
   name: "Neeraj",
   role: "Software Developer",
-  location: "Gurgaon, HR, India",
-  email: "neerajmalhotra.g@gmail.com",
+  location: "Bengaluru, India",
+  email: "kumar.neeraj.developer@gmail.com",
+  phone: "9110166394",
   socials: {
-    linkedin: "https://linkedin.com/in/neeraj-malhotra",
-    github: "https://github.com/neeraj-malhotra",
+    linkedin: "https://www.linkedin.com/in/kumar-neeraj-077b36177/",
+    github: "https://github.com/NeerajNightCoder",
+    website: "https://kumarneerajwebsite.onrender.com/"
   },
-  summary: "Results-driven Software Developer with experience in building scalable web applications. Proficient in React, Node.js, and modern cloud technologies. Passionate about creating seamless user experiences and solving complex backend challenges.",
+  summary: "Full stack developer with 3.5+ years of experience in MERN and proficient in version controlling tools like Git and Docker. Currently focused on building responsive applications using React.js and modern backend technologies. Passionate about solving complex architecture challenges and improving system performance.",
   experience: [
     {
-      company: "Insite",
+      company: "Milo Doctor",
       role: "Software Developer",
-      period: "Sept 2023 - Present",
-      location: "Gurgaon",
-      description: "Leading the development of high-performance React applications and optimizing backend microservices for improved scalability.",
-      skills: ["React.js", "Node.js", "TypeScript", "AWS"]
+      period: "Jan 2023 - Present",
+      location: "Remote/Remote",
+      description: "Built both frontend and backend from start and deployed on AWS EC2 instances. Improved traffic handling to serves by 80% using caching techniques. Reduced network bandwidth by 60% by compressing assets and data. Used Docker to spin up and manage containers efficiently.",
+      skills: ["React.js", "Node.js", "AWS", "Docker", "Caching", "MERN Stack"]
     },
     {
-      company: "BYJU'S",
+      company: "Argusoft",
       role: "Software Developer",
-      period: "Jan 2022 - Aug 2023",
-      location: "Bengaluru",
-      description: "Contributed to the core learning platform, focusing on interactive video components and real-time student tracking systems.",
-      skills: ["React", "Redux", "Node.js", "MongoDB"]
+      period: "Dec 2021 - Dec 2022",
+      location: "Onsite",
+      description: "Joined an ongoing MERN stack project and optimized existing API routes by refactoring code, reducing response times by 40%. Introduced Redis caching and optimized MongoDB query performance with indexing, resulting in 50% faster data retrieval.",
+      skills: ["MERN Stack", "Redis", "MongoDB Indexing", "API Optimization"]
     },
     {
-      company: "Groww",
+      company: "Dhatu Online Solutions",
       role: "Software Developer",
-      period: "May 2021 - Dec 2021",
-      location: "Bengaluru",
-      description: "Developed and maintained financial dashboards and simplified user onboarding flows for millions of active users.",
-      skills: ["JavaScript", "PostgreSQL", "React", "Express"]
+      period: "Aug 2020 - Dec 2021",
+      location: "Onsite",
+      description: "Implemented JWT authentication and authorization to secure APIs, improving user data protection by 40%. Integrated third-party APIs for real-time data updates, reducing user response time by 30%. Optimized database queries, resulting in a 50% reduction in page load times.",
+      skills: ["JWT", "API Integration", "Query Optimization", "Node.js"]
     }
   ],
   skills: {
-    languages: ["JavaScript", "TypeScript"],
-    frontend: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Framer Motion"],
-    backend: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Redis"],
-    tools: ["Docker", "AWS", "Git", "CI/CD", "Linux"]
+    languages: ["Javascript", "Node.js", "SQL", "HTML", "CSS"],
+    frontend: ["React.js", "React Native", "Redux", "Tailwind CSS", "Bootstrap", "Material UI", "Babel"],
+    backend: ["Express", "MongoDB", "Redis", "MERN"],
+    tools: ["Git", "Github", "Docker", "React Testing Library", "Jest", "Scrum", "TDD"]
   },
   projects: [
     {
-      title: "Lyzra",
-      description: "A comprehensive job portal platform connecting recruiters with top talent featuring AI-driven resume matching.",
-      link: "#",
-      tags: ["React", "Node.js", "MongoDB"]
+      title: "Capes.app",
+      description: "A platform for creators and influencers to manage their clients and simplify their work. Built as an offsite project.",
+      link: "https://capes.app/",
+      tags: ["React", "Product Management"]
     },
     {
-      title: "Portfolio 2026",
-      description: "A premium personal portfolio website featuring glassmorphism design and smooth animations.",
-      link: "#",
-      tags: ["Vite", "React", "Framer Motion"]
+      title: "StriderKart",
+      description: "E-commerce platform developed using ReactJS workflows for a seamless shopping experience.",
+      link: "https://reactdevssindri.github.io/striderkart/#/",
+      tags: ["React", "E-commerce"]
     },
     {
-      title: "FinTrack",
-      description: "A financial management dashboard with real-time analytics and transaction tracking.",
-      link: "#",
-      tags: ["Next.js", "PostgreSQL", "Charts.js"]
+      title: "yumedic",
+      description: "Converted PSD into a fully functional medical website. Handled both frontend and backend development.",
+      link: "https://www.yumedic.com",
+      tags: ["Frontend", "Backend", "PSD to Web"]
+    },
+    {
+      title: "Startup Tech Implementation",
+      description: "Complete technical development (Frontend & Backend) for a startup project.",
+      link: "https://neerajistheboss.github.io/yumedUserTeam/",
+      tags: ["Full Stack", "Startup"]
     }
   ],
   education: [
     {
-      degree: "B.Tech in Computer Science",
-      school: "Kurukshetra University",
-      period: "2017 - 2021",
-      details: "Focused on Algorithms, Data Structures, and Web Technologies. Completed several full-stack projects."
+      degree: "B.Tech in Civil Engineering",
+      school: "Vinoba Bhave University (VBU)",
+      period: "2016 - 2020",
+      details: "Full-time degree program."
+    },
+    {
+      degree: "Class XII",
+      school: "CBSE",
+      period: "Completed",
+      details: "Senior Secondary Education."
+    },
+    {
+      degree: "Class X",
+      school: "CISCE (ICSE/ISC)",
+      period: "Completed",
+      details: "Secondary Education."
     }
   ]
 };
