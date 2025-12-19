@@ -35,7 +35,7 @@ export const portfolioData = {
     }
   ],
   skills: {
-    languages: ["JavaScript", "TypeScript", "Python", "C++"],
+    languages: ["JavaScript", "TypeScript"],
     frontend: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Framer Motion"],
     backend: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Redis"],
     tools: ["Docker", "AWS", "Git", "CI/CD", "Linux"]
